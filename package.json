@@ -1,0 +1,33 @@
+{
+  "name": "book-graphql-api",
+  "version": "1.0.0",
+  "description": "A GraphQL API to manage books and authors using Apollo Server, Express and SQLite.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "graphql",
+    "apollo-server",
+    "express",
+    "sqlite",
+    "api",
+    "books",
+    "authors"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/server": "^4.12.2",
+    "@apollo/subgraph": "^2.11.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "graphql": "^16.8.1",
+    "graphql-tag": "^2.12.6",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
