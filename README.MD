@@ -236,8 +236,6 @@ Once the server is running, visit `http://localhost:4000/graphql` to access Apol
 - Access query performance metrics
 - Use the modern, interactive GraphQL IDE
 
-> **Note**: This project uses Apollo Server v4, which provides Apollo Studio instead of the deprecated GraphQL Playground. Apollo Studio offers the same functionality with a more modern and feature-rich interface.
-
 ---
 
 ## 📜 License
